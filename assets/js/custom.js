@@ -681,9 +681,9 @@ $(document).ready(function($){
                     $product_create_form.removeClass('ajax_loading');
                 },
                 success:function(response){
-                    if( response.error ){
-                        console.log(response.error);
-                        $form_errors_el.html('<p>' + response.error + '</p>');
+                    if( response.errors ){
+                        console.log(response.errors);
+                        $form_errors_el.html('<p>' + response.errors + '</p>');
                         return;
                     } 
 
