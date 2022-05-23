@@ -1,0 +1,44 @@
+.info-blocks-section .info-blocks-table{
+    width: auto;
+}
+
+.info-blocks-section .info-blocks-table td {
+    border-left: 1px solid #dadada;
+    border-right: 1px solid #dadada;
+    border-top: 1px solid #dadada;
+    border-bottom: 3px solid #dadada;
+    padding: 5px 10px;
+    background-color: #f9f9f9;
+}
+
+.info-blocks-section .info-blocks-table td .control_image_browse>img{
+    background-color: #dadada;
+}
+
+.info-blocks-section .section_footer_buttons{
+    margin: 30px 10px;
+}
+
+.foodmenu-title-input{
+    margin-bottom: 20px;
+}
+
+/* WooCommerce custom tabs */
+.woocommerce_options_panel div.form-field{
+    padding: 5px 20px 5px 162px!important;
+    margin: 9px 0;
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.htr_product_image_id_field .control_image_browse img{
+    margin: 0 0 0 7px;
+}
+
+.htr-actions{
+    margin: 2em 0;
+}
+
+.htr-actions button{
+    margin: 0 1em!important;
+}

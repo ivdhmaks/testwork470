@@ -1,0 +1,72 @@
+$paddings: 10px;
+$min-width: 320px;
+$base-wrapp: 1180px;
+$max-width: calc(#{$base-wrapp} + #{$paddings} * 2);
+$base-bg:#F0EAE1;
+$base-font-size: 1rem;
+$base-line-height: 1.75rem;
+$base-font-family: "Segoe UI", "Open Sans", Arial, sans-serif;
+$custom-font-family: "Segoe UI","Open Sans",  Arial, sans-serif;
+$default-transition: all 0.4s linear;
+$trs: all 0.3s linear;
+$trs-wow: all 1s linear;
+
+$shadow: 2px 6px 20px rgba(0, 164, 91, 0.25);
+$shadow_light: 2px 6px 20px rgba(0, 164, 91, 0.10);
+
+//breakpoints
+$xs: 567px;
+$sm: 767px;
+$md: 991px;
+$lg: 1279px;
+$xl: 1435px;
+
+/* main variables */
+
+$col-1: #ae1414;
+$col-2: #fff;
+$col-3: #1b1b1b;
+$col-4: #f3f3f3;
+$col-5: #161616;
+$col-6: #bbbbbb;
+$col-7: #7e7e7e;
+
+$bg-1:rgba(#fff, .1);
+
+$bd: rgba(187, 187, 187, 0.5);
+
+//text, titles
+$tc-1: #303030;
+$tc-2: #fff;
+$tc-3: $col-1;
+$tc-4: $col-5;
+$title-main-color: #fff;
+$title-color: #fff;
+
+
+$font-size-h1: 36px;
+$line-height-h1: 49px;
+$font-size-h2: 36px;
+$line-height-h2: 49px;
+$font-size-h3: 36px;
+$line-height-h3: 49px;
+$font-size-h4: 18px;
+$line-height-h4: 24px;
+
+$f-s-xs: 14px;   
+$lh-xs: 14px;   
+$f-s-sm: 16px;   
+$lh-sm: 22px;   
+$f-s-md: 28px;   
+$lh-md: 38px;
+$f-s-lg: 30px;  
+$lh-lg: 30px;  
+
+$f-s-big-xs: 34px;
+$f-s-big-sm: 40px;
+$f-s-big-md: 50px;
+$lh-big-md: 62px;
+$f-s-big-lg: 100px;
+$lh-big-lg: 110px;
+$f-s-big-xl: 110px;
+$lh-big-xl: 90px;
